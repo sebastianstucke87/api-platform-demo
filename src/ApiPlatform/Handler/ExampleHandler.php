@@ -3,12 +3,12 @@ declare(strict_types=1);
 
 namespace App\ApiPlatform\Handler;
 
-use ApiPlatform\Core\DataPersister\ContextAwareDataPersisterInterface;
+use ApiPlatform\Core\DataPersister\DataPersisterInterface;
 use ApiPlatform\Core\DataProvider\ItemDataProviderInterface;
 use App\Entity\Example;
 use Symfony\Component\HttpFoundation\RequestStack;
 
-class ExampleHandler implements ContextAwareDataPersisterInterface, ItemDataProviderInterface
+class ExampleHandler implements DataPersisterInterface, ItemDataProviderInterface
 {
 	public function __construct(
 		private RequestStack $requestStack
