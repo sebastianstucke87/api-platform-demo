@@ -1,0 +1,11 @@
+###
+
+PATCH https://127.0.0.1:8000/api/examples/some-id
+accept: application/ld+json
+Content-Type: application/merge-patch+json
+
+{
+  "foo": "bar"
+}
+
+###
