@@ -14,6 +14,10 @@ PATCH-request will be handled by `\App\ApiPlatform\Handler\ExampleHandler::getIt
 > "To mutate the application states during POST, PUT, **PATCH** or DELETE operations, API Platform uses classes called data persisters."
 ([https://api-platform.com/docs/core/data-persisters/#data-persisters](https://api-platform.com/docs/core/data-persisters/#data-persisters))
 
+
+### Screenshot
+> ![](docs/screenshot.png)
+
 ### Creation of this repo:
 1. `$ symfony new demo`
 2. `$ symfony composer req api`
